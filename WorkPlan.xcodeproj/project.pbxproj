@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E2D7BFC1CC480BE00A8412B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7BFB1CC480BE00A8412B /* AppDelegate.swift */; };
-		5E2D7BFE1CC480BE00A8412B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7BFD1CC480BE00A8412B /* ViewController.swift */; };
+		5E2D7BFC1CC480BE00A8412B /* WPAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7BFB1CC480BE00A8412B /* WPAppDelegate.swift */; };
 		5E2D7C011CC480BE00A8412B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7BFF1CC480BE00A8412B /* Main.storyboard */; };
 		5E2D7C031CC480BE00A8412B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7C021CC480BE00A8412B /* Assets.xcassets */; };
 		5E2D7C061CC480BE00A8412B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2D7C041CC480BE00A8412B /* LaunchScreen.storyboard */; };
+		5E2D7C0E1CC483EF00A8412B /* WPLoginOrRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C0D1CC483EF00A8412B /* WPLoginOrRegisterVC.swift */; };
+		5E2D7C101CC4846000A8412B /* WPPlanMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C0F1CC4846000A8412B /* WPPlanMainVC.swift */; };
+		5E2D7C121CC4849E00A8412B /* WPProjectPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C111CC4849E00A8412B /* WPProjectPlanVC.swift */; };
+		5E2D7C141CC484B400A8412B /* WPPersonPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C131CC484B400A8412B /* WPPersonPlanVC.swift */; };
+		5E2D7C161CC484CB00A8412B /* WPMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C151CC484CB00A8412B /* WPMineVC.swift */; };
+		5E2D7C181CC484D200A8412B /* WPSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C171CC484D200A8412B /* WPSettingVC.swift */; };
+		5E2D7C1A1CC484E800A8412B /* WPChangePlanBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C191CC484E800A8412B /* WPChangePlanBaseVC.swift */; };
+		5E2D7C1C1CC4850400A8412B /* WPAddNewPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C1B1CC4850400A8412B /* WPAddNewPlanVC.swift */; };
+		5E2D7C1E1CC4851100A8412B /* WPEditPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2D7C1D1CC4851100A8412B /* WPEditPlanVC.swift */; };
+		5E6A87A01CC4E6A10001F04B /* WPPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A879E1CC4E6A10001F04B /* WPPlanCell.swift */; };
+		5E6A87A11CC4E6A10001F04B /* WPPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6A879F1CC4E6A10001F04B /* WPPlanCell.xib */; };
+		5E6A87A31CC4EB6D0001F04B /* WPPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A87A21CC4EB6D0001F04B /* WPPlanModel.swift */; };
+		5E6A87A51CC4EB8F0001F04B /* WPTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A87A41CC4EB8F0001F04B /* WPTaskModel.swift */; };
+		5E6A87A71CC4F8760001F04B /* testTableViewVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A87A61CC4F8760001F04B /* testTableViewVCTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E2D7BF81CC480BE00A8412B /* WorkPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E2D7BFB1CC480BE00A8412B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E2D7BFD1CC480BE00A8412B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E2D7BFB1CC480BE00A8412B /* WPAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPAppDelegate.swift; sourceTree = "<group>"; };
 		5E2D7C001CC480BE00A8412B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E2D7C021CC480BE00A8412B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2D7C051CC480BE00A8412B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E2D7C071CC480BE00A8412B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2D7C0D1CC483EF00A8412B /* WPLoginOrRegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPLoginOrRegisterVC.swift; sourceTree = "<group>"; };
+		5E2D7C0F1CC4846000A8412B /* WPPlanMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPPlanMainVC.swift; sourceTree = "<group>"; };
+		5E2D7C111CC4849E00A8412B /* WPProjectPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPProjectPlanVC.swift; sourceTree = "<group>"; };
+		5E2D7C131CC484B400A8412B /* WPPersonPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPPersonPlanVC.swift; sourceTree = "<group>"; };
+		5E2D7C151CC484CB00A8412B /* WPMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMineVC.swift; sourceTree = "<group>"; };
+		5E2D7C171CC484D200A8412B /* WPSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPSettingVC.swift; sourceTree = "<group>"; };
+		5E2D7C191CC484E800A8412B /* WPChangePlanBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPChangePlanBaseVC.swift; sourceTree = "<group>"; };
+		5E2D7C1B1CC4850400A8412B /* WPAddNewPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPAddNewPlanVC.swift; sourceTree = "<group>"; };
+		5E2D7C1D1CC4851100A8412B /* WPEditPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPEditPlanVC.swift; sourceTree = "<group>"; };
+		5E6A879E1CC4E6A10001F04B /* WPPlanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPPlanCell.swift; sourceTree = "<group>"; };
+		5E6A879F1CC4E6A10001F04B /* WPPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPPlanCell.xib; sourceTree = "<group>"; };
+		5E6A87A21CC4EB6D0001F04B /* WPPlanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPPlanModel.swift; sourceTree = "<group>"; };
+		5E6A87A41CC4EB8F0001F04B /* WPTaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPTaskModel.swift; sourceTree = "<group>"; };
+		5E6A87A61CC4F8760001F04B /* testTableViewVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewVCTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,59 @@
 		5E2D7BFA1CC480BE00A8412B /* WorkPlan */ = {
 			isa = PBXGroup;
 			children = (
-				5E2D7BFB1CC480BE00A8412B /* AppDelegate.swift */,
-				5E2D7BFD1CC480BE00A8412B /* ViewController.swift */,
+				5E2D7BFB1CC480BE00A8412B /* WPAppDelegate.swift */,
+				5E2D7C221CC4858100A8412B /* View */,
+				5E2D7C211CC4857C00A8412B /* Cell */,
+				5E2D7C201CC4856F00A8412B /* Model */,
+				5E2D7C1F1CC4855200A8412B /* ViewController */,
 				5E2D7BFF1CC480BE00A8412B /* Main.storyboard */,
 				5E2D7C021CC480BE00A8412B /* Assets.xcassets */,
 				5E2D7C041CC480BE00A8412B /* LaunchScreen.storyboard */,
 				5E2D7C071CC480BE00A8412B /* Info.plist */,
 			);
 			path = WorkPlan;
+			sourceTree = "<group>";
+		};
+		5E2D7C1F1CC4855200A8412B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E2D7C0D1CC483EF00A8412B /* WPLoginOrRegisterVC.swift */,
+				5E2D7C0F1CC4846000A8412B /* WPPlanMainVC.swift */,
+				5E2D7C111CC4849E00A8412B /* WPProjectPlanVC.swift */,
+				5E2D7C131CC484B400A8412B /* WPPersonPlanVC.swift */,
+				5E2D7C151CC484CB00A8412B /* WPMineVC.swift */,
+				5E2D7C171CC484D200A8412B /* WPSettingVC.swift */,
+				5E2D7C191CC484E800A8412B /* WPChangePlanBaseVC.swift */,
+				5E2D7C1B1CC4850400A8412B /* WPAddNewPlanVC.swift */,
+				5E2D7C1D1CC4851100A8412B /* WPEditPlanVC.swift */,
+				5E6A87A61CC4F8760001F04B /* testTableViewVCTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5E2D7C201CC4856F00A8412B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E6A87A21CC4EB6D0001F04B /* WPPlanModel.swift */,
+				5E6A87A41CC4EB8F0001F04B /* WPTaskModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E2D7C211CC4857C00A8412B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5E6A879E1CC4E6A10001F04B /* WPPlanCell.swift */,
+				5E6A879F1CC4E6A10001F04B /* WPPlanCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		5E2D7C221CC4858100A8412B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +161,7 @@
 		5E2D7BF01CC480BE00A8412B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WP;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张可可";
@@ -123,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2D7C061CC480BE00A8412B /* LaunchScreen.storyboard in Resources */,
+				5E6A87A11CC4E6A10001F04B /* WPPlanCell.xib in Resources */,
 				5E2D7C031CC480BE00A8412B /* Assets.xcassets in Resources */,
 				5E2D7C011CC480BE00A8412B /* Main.storyboard in Resources */,
 			);
@@ -135,8 +208,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2D7BFE1CC480BE00A8412B /* ViewController.swift in Sources */,
-				5E2D7BFC1CC480BE00A8412B /* AppDelegate.swift in Sources */,
+				5E2D7C141CC484B400A8412B /* WPPersonPlanVC.swift in Sources */,
+				5E2D7C0E1CC483EF00A8412B /* WPLoginOrRegisterVC.swift in Sources */,
+				5E2D7C1E1CC4851100A8412B /* WPEditPlanVC.swift in Sources */,
+				5E2D7C1C1CC4850400A8412B /* WPAddNewPlanVC.swift in Sources */,
+				5E6A87A71CC4F8760001F04B /* testTableViewVCTableViewController.swift in Sources */,
+				5E2D7C181CC484D200A8412B /* WPSettingVC.swift in Sources */,
+				5E2D7C161CC484CB00A8412B /* WPMineVC.swift in Sources */,
+				5E2D7C101CC4846000A8412B /* WPPlanMainVC.swift in Sources */,
+				5E6A87A31CC4EB6D0001F04B /* WPPlanModel.swift in Sources */,
+				5E6A87A51CC4EB8F0001F04B /* WPTaskModel.swift in Sources */,
+				5E2D7C121CC4849E00A8412B /* WPProjectPlanVC.swift in Sources */,
+				5E2D7BFC1CC480BE00A8412B /* WPAppDelegate.swift in Sources */,
+				5E2D7C1A1CC484E800A8412B /* WPChangePlanBaseVC.swift in Sources */,
+				5E6A87A01CC4E6A10001F04B /* WPPlanCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +369,7 @@
 				5E2D7C0C1CC480BE00A8412B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
