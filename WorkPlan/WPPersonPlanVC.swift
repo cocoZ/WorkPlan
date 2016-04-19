@@ -34,7 +34,6 @@ class WPPersonPlanVC: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("WPPlanCell", forIndexPath: indexPath) as! WPPlanCell
-//        var model = self.dataSource[indexPath.row]
         let model = self.dataSource[indexPath.row]
         
         cell.planNameLabel.text = model.name

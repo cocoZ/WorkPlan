@@ -9,15 +9,15 @@
 import UIKit
 
 class WPTaskModel {
-    
+    var name: String?
     var info: String?
     var deadline: String?
     var risk: String?
     var isFinish: Bool?
 
     
-    init(info: String, deadline: String, risk: String, isFinish: Bool) {
-        
+    init(name: String, info: String, deadline: String, risk: String, isFinish: Bool) {
+        self.name = name
         self.info = info
         self.deadline = deadline
         self.risk = risk

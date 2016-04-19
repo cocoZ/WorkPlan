@@ -19,17 +19,21 @@ class WPAddNewPlanVC: WPChangePlanBaseVC {
         self.planModel.name = "计划1"
         self.planModel.deadline = ""
         
-        let taskModel = WPTaskModel.init(info: "学习", deadline: "", risk: "hello", isFinish: false)
+        let taskModel = WPTaskModel.init(name: "任务1", info: "学习", deadline: "", risk: "hello", isFinish: false)
         
         self.planModel.taskArr.insert(taskModel, atIndex: 0)
+        
+        
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+        
     }
 
-
+    
 
 }
