@@ -27,6 +27,10 @@ class WPChangePlanBaseVC: UIViewController, UITableViewDelegate, UITableViewData
         
         self.tableView = UITableView.init(frame: CGRectZero, style: UITableViewStyle.Grouped)
         
+        self.tableView.registerNib(UINib.init(nibName: "WPHeaderCell", bundle: nil), forCellReuseIdentifier: "WPHeaderCell")
+        self.tableView.registerNib(UINib.init(nibName: "WPTaskNameCell", bundle: nil), forCellReuseIdentifier: "WPTaskNameCell")
+        self.tableView.registerNib(UINib.init(nibName: "WPTaskTimeCell", bundle: nil), forCellReuseIdentifier: "WPTaskTimeCell")
+        self.tableView.registerNib(UINib.init(nibName: "WPTaskRiskCell", bundle: nil), forCellReuseIdentifier: "WPTaskRiskCell")
         
     }
     
@@ -43,6 +47,26 @@ class WPChangePlanBaseVC: UIViewController, UITableViewDelegate, UITableViewData
     }
    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("WPHeaderCell", forIndexPath: indexPath) as! WPHeaderCell
+            cell.nameLabel.text = self.planModel.name
+            cell.deadlineLabel.text = self.planModel.deadline
+            return cell
+        } else {
+            let model = self.planModel.taskArr[indexPath.row]
+            if indexPath.row == 0 {
+                let cell = tableView.dequeueReusableCellWithIdentifier("WPTaskNameCell", forIndexPath: indexPath) as! WPTaskNameCell
+                cell.nameLabel.text =
+                
+                
+            } else if indexPath.row == 1 {
+                
+            } else if indexPath.row == 2 {
+                
+            } else if indexPath.row == 3 {
+                
+            }
+        }
         let cell = tableView.dequeueReusableCellWithIdentifier("xxx", forIndexPath: indexPath)
         
         return cell
